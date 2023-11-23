@@ -10,6 +10,7 @@ Backend
 The Backend is responsible for calculating the values of the requested sequence, given by the index "n", implementing a recursive method 
 to calculate these values and a Cache method to improve the efficiency of this calculation. It is also responsible for exposing two RESTful endpoints.
 
+REST API documentation - http://localhost:8080/q/swagger-ui/
 
 Frontend
 --------------------
