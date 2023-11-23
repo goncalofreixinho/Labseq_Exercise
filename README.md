@@ -13,6 +13,7 @@ These main responsibilities are reflected in the classes: Labseq and Labseq_REST
 
 URLS:
 REST API documentation - http://localhost:8080/q/swagger-ui/
+
 Backend: http://localhost:8080/labseq/{n}/
 
 Frontend
