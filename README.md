@@ -11,8 +11,8 @@ when the project is built in the Frontend. If it doesn't appear and you get an e
 Backend
 ---------------------
 The Backend is responsible for calculating the values of the requested sequence, given by the index "n", implementing a recursive method 
-to calculate these values and a Cache method to improve the efficiency of this calculation. It is also responsible for exposing two RESTful endpoints.
-These main responsibilities are reflected in the classes: Labseq and Labseq_REST.
+to calculate these values and a Cache method to improve the efficiency of this calculation. It is also responsible for exposing RESTful endpoints.
+These main responsibilities are reflected in the classes: Labseq, Labseq_REST and Labseq_Response.
 
 URLS:
 REST API documentation - http://localhost:8080/q/swagger-ui/
