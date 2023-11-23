@@ -21,6 +21,8 @@ Frontend
 The Frontend plays a crucial role in user interaction with the Quarkus backend. It is mainly made up of the AppComponent class and the ApiService 
 service, which together provide a graphical user interface and manage communication with the backend.
 
+Note: Docker was used for the frontend, since version 18.04 of my Ubuntu system didn't support the necessary versions of Angular and Npm. Docker thus makes it possible to run applications in isolated containers with their own versions of dependencies, regardless of the versions installed on the host operating system.
+
 URLS:
 Frontend: http://localhost:4200/
 
