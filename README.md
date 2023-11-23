@@ -25,6 +25,20 @@ Frontend: http://localhost:4200/
 
 How to Run 
 --------------------
+Run Backend:
+
+In the development of this project JDK Java 17 and Maven version 3.8.1 were used to develop this project.
+If you are in the root directory of the project, go to the correct directory.
+
+```
+cd Backend-Quarkus
+```
+Next, you need to compile the project:
+
+```
+./mvnw compile quarkus:dev
+```
+
 Run Frontend:
 
 It's important to note that Docker is used in the Frontend part, so you need to check that you have it installed on your machine first. 
