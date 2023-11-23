@@ -9,7 +9,7 @@ Backend
 ---------------------
 The Backend is responsible for calculating the values of the requested sequence, given by the index "n", implementing a recursive method 
 to calculate these values and a Cache method to improve the efficiency of this calculation. It is also responsible for exposing two RESTful endpoints.
-These main responsibilities are reflected in the classes: """src/main/java/alticelabs/Labseq""" and """src/main/java/alticelabs/Labseq_REST"""
+These main responsibilities are reflected in the classes: "src/main/java/alticelabs/Labseq" and "src/main/java/alticelabs/Labseq_REST"
 
 REST API documentation - http://localhost:8080/q/swagger-ui/
 
