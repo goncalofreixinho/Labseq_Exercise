@@ -29,7 +29,7 @@ Run Frontend:
 
 It's important to note that Docker is used in the Frontend part, so you need to check that you have it installed on your machine first. 
 If not, install it before running the project. In the development of this project Docker version 20.10.21 was used.
-After that, go to the correct directory.
+After that, if you are in the root directory of the project, go to the correct directory.
 
 ```
 cd Frontend-Angular
@@ -39,7 +39,7 @@ Next, you need to build using Docker:
 ```
 docker build -t angular .
 ```
-And then the Docker run command.
+And then the Docker run command:
 
 ```
 docker run -d -p 4200:4200 angular
