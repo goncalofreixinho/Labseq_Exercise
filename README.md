@@ -5,6 +5,9 @@ A simple JavaScript web GUI (AngularJS) was use to invoke the service.
 This exercise can be divided into two parts: the Backend part which was developed using Quarkus and the Frontend part which used Angular.
 You need to run the Frontend and Backend separately. We'll explain how to do this below.
 
+Important Note -> I had to submit the project without the "node_modules" folder as it was too big to put here, but I think it is generated 
+when the project is built in the Frontend. If it doesn't appear and you get an error when you run the project, I'll send it to you by email.
+
 Backend
 ---------------------
 The Backend is responsible for calculating the values of the requested sequence, given by the index "n", implementing a recursive method 
