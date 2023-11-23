@@ -27,4 +27,21 @@ How to Run
 --------------------
 Run Frontend:
 
-Check if you have docker installed and what version you have. If you don't have it, install. In the development of this project Docker version 20.10.21 was used.
+It's important to note that Docker is used in the Frontend part, so you need to check that you have it installed on your machine first. 
+If not, install it before running the project. In the development of this project Docker version 20.10.21 was used.
+After that, go to the correct directory.
+
+```
+cd Frontend-Angular
+```
+Next, you need to build using Docker:
+
+```
+docker build -t angular .
+```
+And then the Docker run command.
+
+```
+docker run -d -p 4200:4200 angular
+
+```
